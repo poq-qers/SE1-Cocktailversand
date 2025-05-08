@@ -12,7 +12,7 @@ Der Zweck dieses Dokuments ist es, die wesentlichen Bedarfe und Funktionalitäte
 Der Zweck dieses Dokuments ist es, die wesentlichen Anforderungen an das System aus Sicht und mit den Begriffen der künftigen Anwender zu beschreiben.
 
 === Gültigkeitsbereich (Scope)
-Dieses Visions-Dokument bezieht sich auf das System {project-system-name}, das von <Team> entwickelt wird. Das System wird es <Zielkunde/Auftraggeber> erlauben, <Hauptfunktionen> zu nutzen, um damit <Vorteile> zu erreichen / <Aufgabe> zu erleichtern / <Problem> zu lösen.
+Dieses Visions-Dokument bezieht sich auf das System {project-system-name}, das von Cocktails-Systems entwickelt wird. Das System wird es Privatkunden erlauben, individuale Cocktails zu erstellen und den Versand zu verwenden, um damit bequem von zuhause Cocktails zu genießen.
 
 === Definitionen, Akronyme und Abkürzungen
 //Verweis passend zum Belegabgabe-Template se1_belegabgabe_t00.adoc
@@ -27,6 +27,7 @@ Siehe <<#glossary, Glossar>>.
 
 === Fachliche Motivation
 //Erläutern Sie kurz den Hintergrund, in dem das Projekt angesiedelt ist. Welches Problem soll gelöst werden, wie ist es entstanden? Welche Verbesserung wird angestrebt. Achten Sie darauf, eine fachliche (organisatorische, betriebswirtschaftliche) Perspektive einzunehmen.
+Im Moment ist es nicht möglich Cocktails für zuhause oder private Veranstaltungen zu bestellen. Dies sehen wir als Opportunity auf diese Kunden mit genussvollen Cocktails zu beliefern und damit unseren Kundenkreis zu erweitern.
 
 === Produktvision
 //Eine Produktvision beschreibt das Einsatzziel der Anwendung und sorgt für ein gemeinsames Ziel und Verständnis für alle Beteiligten im Projekt. Geben Sie in knapper Form übersichtsartig die Positionierung der angestrebten Lösung im Vergleich zu verfügbaren Alternativen dar. Das folgende Format kann dazu verwendet werden:
@@ -34,13 +35,13 @@ Siehe <<#glossary, Glossar>>.
 
 [cols="1,3"]
 |===
-| Für | [Zielkunde / Persona]
-| der / die | [Angabe des Bedarfs oder Chance]
-| ist das  | [Produktname]
-| eine  | [Produktkategorie]
-| der / die | [Aussage zum Hauptvorteil / Alleinstellungsmerkmal]
-| anders als | [wesentliche Lösungsalternative]
-| kann unser Produkt | [Aussage zum Hauptunterschied]
+| Für | Privatkunden
+| der / die | Cocktails zuhause genießen wollen
+| ist das  | Online-Bestellsystem {project-system-name}
+| eine  | Webanwendung
+| der / die | Individualität unserer Bar wiederspiegelt
+| anders als | bei stationäre Bars
+| kann unser Produkt | auch geliefert werden
 |===
 
 
@@ -64,9 +65,22 @@ Siehe <<#glossary, Glossar>>.
 |===
 | Name | Beschreibung | Verantwortlichkeiten
 
-| [Benennung des Stakeholders (als Rolle)]
-| [Kurze Beschreibung des Stakeholders und seiner Ziele]
-| [Fassen Sie die wesentlichen Verantwortlichkeiten des Stakeholder mit Bezug auf das zu entwickelnde System kurz zusammen, d.h. ihr besonderen Interessen. Beispiele: Dieser Stakeholder sorgt dafür, dass das System gewartet wird / dass die angezeigten Daten aktuell sind / überwacht den Projektfortschritt / usw.]
+| Barbesitzer (Auftraggeber)
+| Geschäftsfeld erweitern auf Privatkunden
+| Lieferant für die Cocktails und für die Aktuellhaltung der Daten auf der Website
+
+| Besteller der Cocktails
+| Möchte die selben Cocktails wie in der Bar schnell geliefert haben
+| Nutzung des Systems
+
+| Gesetzgeber
+| Möchte das gesetzliche Vorgaben von Lebensmittelsicherheit, Datenschutz und Jugendschutz einhalten werden
+| Im System muss ein Nachweis / ein Beschränkung für die Einhaltung der vorher genannten Gesetze bestehen
+
+| Entwickler
+| einfach zu bedienendes System
+| Programmieren, warten und Testen das System
+
 |===
 
 Die Verfeinerung der Stakeholder, die das System benutzen, wird im UX-Konzept mittels Personas vorgenommen.
